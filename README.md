@@ -6,7 +6,12 @@ The Python scripts in this folder were created for ExtraHop's Data Science Codin
 
 This project was written using [Python 3.6.7](https://www.python.org/downloads/release/python-367/) on [Ubuntu 16.04 (Xenial)](http://hr.releases.ubuntu.com/16.04.5/). The following instructions assume you are using a Linux workstation.
 
-First, verify that [pip](https://pip.pypa.io/en/stable/) is version 10.0.1 or higher:
+First, if you don't already have pip installed:
+```bash
+sudo apt install python3-pip
+```
+
+Verify that [pip](https://pip.pypa.io/en/stable/) is version 10.0.1 or higher:
 ```bash
 python3 -m pip --version
 ```
@@ -14,11 +19,6 @@ python3 -m pip --version
 If not, upgrade pip:
 ```bash
 python3 -m pip install --upgrade pip==10.0.1
-```
-
-(If you don't already have pip installed):
-```bash
-sudo apt install python3-pip
 ```
 
 Install the required dependencies:
