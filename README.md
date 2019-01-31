@@ -4,7 +4,7 @@ The Python scripts in this folder were created for ExtraHop's Data Science Codin
 
 ## Installation
 
-This project was written using [Python 3.6.7](https://www.python.org/downloads/release/python-367/) on [Ubuntu 16.04 (Xenial)](http://hr.releases.ubuntu.com/16.04.5/). The following instructions assume you are using a Linux workstation.
+This project was written using [Python 3.6.7](https://www.python.org/downloads/release/python-367/) on [Ubuntu 16.04 (Xenial)](http://hr.releases.ubuntu.com/16.04.5/). The following instructions assume you are using a Linux workstation with Python 3.X.X.
 
 First, if you don't already have pip installed:
 ```bash
@@ -23,13 +23,13 @@ python3 -m pip install --upgrade pip==10.0.1
 
 Install the required dependencies:
 ```bash
-python3 -m pip install pandas
-python3 -m pip install numpy
-python3 -m pip install matplotlib
-python3 -m pip install scikit-learn
+sudo python3 -m pip install numpy
+sudo python3 -m pip install pandas
+sudo python3 -m pip install matplotlib
+sudo python3 -m pip install scikit-learn
 ```
 
-Navigate to this project's directory, and ensure proper execution priveleges:
+Navigate to this project's directory and ensure proper execution priveleges:
 ```bash
 chmod +x *.py
 ```
