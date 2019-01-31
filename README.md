@@ -16,6 +16,11 @@ If not, upgrade pip:
 python3 -m pip install --upgrade pip==10.0.1
 ```
 
+(If you don't already have pip installed):
+```bash
+sudo apt install python3-pip
+```
+
 Install the required dependencies:
 ```bash
 python3 -m pip install pandas
