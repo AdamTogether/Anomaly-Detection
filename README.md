@@ -26,7 +26,7 @@ Install the required dependencies:
 sudo python3 -m pip install numpy
 sudo python3 -m pip install pandas
 sudo python3 -m pip install matplotlib
-sudo python3 -m pip install scikit-learn
+sudo apt-get install python3-tk
 ```
 
 Navigate to this project's directory and ensure proper execution priveleges:
@@ -34,10 +34,10 @@ Navigate to this project's directory and ensure proper execution priveleges:
 chmod +x *.py
 ```
 
-Run dos2unix on the "dataset.csv" to guarantee that no invisible characters were added to the file during its migration:
+Run dos2unix on the dataset and python scripts to guarantee that no invisible characters were added to the file during its migration:
 ```bash
 sudo apt-get install dos2unix
-dos2unix dataset.csv
+dos2unix dataset.csv && dos2unix *.py
 ```
 
 ## Usage
